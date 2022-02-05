@@ -1,12 +1,39 @@
+.flex-container {
+    display: flex;
+}
+
+.flex-container-subheading {
+    display: flex;
+    padding-top: 5% ;
+}
+.flex-container-subsetheading {
+    display: flex;
+    padding-top: 2% ;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub {
+    align-self: flex-end;
+    color: green;
+
+}
+.sub2 {
+    align-items: center;
+
+}
 .item {
-    min-height: 50rem;
-    min-width: 30rem;
-    padding: 60px;
+    min-height: 5rem;
+    min-width: 15rem;
+    padding: 2px;
 }
 
 .item img {
-    width: 80%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     border-radius: 2rem;
     pointer-events: none;
 }
