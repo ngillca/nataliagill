@@ -24,7 +24,7 @@ function App() {
     </motion.div>
 
     </motion.div>
-    <motion.div className="flex-container sub2" animate={{ x: 90}}>
+    <motion.div className="flex-container sub2" animate={{ x: 50}}>
       <h1>I'm a Software Engineer with a passion for design and building solutions for a variety of use-cases</h1>
     </motion.div>
 
