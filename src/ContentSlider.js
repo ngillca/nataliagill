@@ -16,22 +16,22 @@ export default function ContentSlider(props) {
     {
       name: props.projectNames[0],
       image: props.sentImages[0],
-      url: "google.com",
+      url: "https://google.com/",
     },
     {
       name: props.projectNames[1],
       image: props.sentImages[1],
-      url: "google.com",
+      url: "https://google.com/",
     },
     {
       name: props.projectNames[2],
       image: props.sentImages[2],
-      url: "google.com",
+      url: "https://google.com/",
     },
     {
       name: props.projectNames[3],
       image: props.sentImages[3],
-      url: "google.com",
+      url: "https://google.com/",
     },
   ];
 
@@ -64,7 +64,7 @@ export default function ContentSlider(props) {
                     style={{ width: "200px", height: "200px" }}
                   />
                 
-   <a href={o.url}><p className="zoom">{o.name}</p></a>
+   <a href={o.url} target="_blank"><p className="zoom">{o.name}</p></a>
                 
                
               </motion.div>
