@@ -42,7 +42,7 @@ p {
 
 .timeline ul li {
   padding: 20px;
-  background-color: rgba(201, 81, 177, 0.2);
+  background-color: rgba(180, 170, 178, 0.2);
   color: black;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -75,7 +75,7 @@ p {
 } */
 
 .learn-more-button {
-  background-color: #4CAF50;
+  background-color: #9c05ce;
   border: none;
   border-radius: 27px;
   color: white;
