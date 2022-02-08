@@ -30,15 +30,18 @@ function App() {
       >
         <h1>
           I'm a Software Engineer with a passion for design and building
-          solutions for a variety of use cases
+          digital solutions
         </h1>
       </motion.div>
 
       <motion.div animate={{ x: 50 }} className="flex-container title-area">
-        <h2>Qualifications</h2>
+        <h2>Experience 👩🏽‍💻
+ </h2>
       </motion.div>
 
       <Timeline />
+
+
 
 
       <div className="content-area">
