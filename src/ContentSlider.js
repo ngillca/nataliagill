@@ -6,32 +6,31 @@ export default function ContentSlider(props) {
   const [width, setWidth] = useState(0);
   const carousel = useRef();
 
-  const pic = [
-    props.sentImages[0],
-    props.sentImages[1],
-    props.sentImages[2],
-    props.sentImages[3],
-  ];
+ 
   const obj = [
     {
       name: props.projectNames[0],
       image: props.sentImages[0],
       url: "https://google.com/",
+      description: ''
     },
     {
       name: props.projectNames[1],
       image: props.sentImages[1],
       url: "https://google.com/",
+      description: ''
     },
     {
       name: props.projectNames[2],
       image: props.sentImages[2],
       url: "https://google.com/",
+      description: ''
     },
     {
       name: props.projectNames[3],
       image: props.sentImages[3],
       url: "https://google.com/",
+      description: ''
     },
   ];
 
@@ -64,7 +63,7 @@ export default function ContentSlider(props) {
                     style={{ width: "200px", height: "200px" }}
                   />
                 
-   <a href={o.url} target="_blank"><p className="zoom">{o.name}</p></a>
+   <a href={o.url} target="_blank"><p className="zoom">{o.name}<br/>jdjsdkdsjjdjsdkdsjjdjsdkdsj<br/>jdjsdkdsj<br/>jdjsdkdsj<br/>jdjsdkdsj<br/>jdjsdkdsj<br/>jdjsdkdsj<br/>jdjsdkdsj<br/>jdjsdkdsj<br/>jdjsdkdsj<br/>jdjsdkdsj<br/><br/><br/></p></a>
                 
                
               </motion.div>

@@ -2,12 +2,10 @@ import "./App.css";
 import { motion } from "framer-motion";
 import images from "./images";
 import me from "./ngillprofile.png";
-
+import Timeline from "./Timeline";
 import ContentSlider from "./ContentSlider";
 
 function App() {
- 
-
   return (
     <>
       <motion.div className="flex-container title-area">
@@ -23,7 +21,7 @@ function App() {
           />
         </motion.div>
         <motion.div className="sub" animate={{ x: -40 }}>
-          <h1>Hi I'm Natalia!</h1>
+          <h1>Hi, I'm Natalia! 👋</h1>
         </motion.div>
       </motion.div>
       <motion.div
@@ -32,16 +30,41 @@ function App() {
       >
         <h1>
           I'm a Software Engineer with a passion for design and building
-          solutions for a variety of use-cases
+          solutions for a variety of use cases
         </h1>
       </motion.div>
 
-      <div className="content-area">
+      <motion.div animate={{ x: 50 }} className="flex-container title-area">
+        <h2>Qualifications</h2>
+      </motion.div>
 
-        
-        <ContentSlider title="Digital Marketing" sentImages={images} projectNames={['ABC', '232','XYZ','aaa']}/>
-        <ContentSlider title="Tools" sentImages={images} projectNames={['ABC', '232','XYZ','aaa']} />
+      <Timeline />
+
+
+      <div className="content-area">
+        {/* <ContentSlider
+          title="Digital Marketing"
+          sentImages={images}
+          projectNames={["ABC", "232", "XYZ", "aaa"]}
+        />
+        <ContentSlider
+          title="Tools"
+          sentImages={images}
+          projectNames={["ABC", "232", "XYZ", "aaa"]}
+        /> */}
       </div>
+      {/* 
+      <motion.div className='flex-container title-area'>
+        <h2>Projects</h2>
+      </motion.div>
+
+      <motion.div className='flex-container title-area'>
+        <h2>Graphic Design</h2>
+      </motion.div>
+
+      <motion.div className='flex-container title-area'>
+        <h2>Digital Art {'&'} Storytelling</h2>
+      </motion.div> */}
     </>
   );
 }
